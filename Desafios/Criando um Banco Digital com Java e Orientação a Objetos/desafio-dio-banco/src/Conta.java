@@ -61,6 +61,7 @@ public class Conta implements IConta{
         System.out.println(String.format("Agência: %d", this.agencia));
         System.out.println(String.format("Conta: %d", this.numero));
         System.out.println(String.format("Saldo: %.2f", this.saldo));
+        System.out.println("Taxa de juros: " + decimalFormat.format(saldo) + "%");
 
     }
 }
